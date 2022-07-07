@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./image/favicon.png">
+    <title>DFitness Portal de Noticias Fitness</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-light fondoDegrade">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../image/logof.png" alt="Logo D Fitness Index portal de noticias fitness" class="logoHeader">
+                <p class="centrado">DFITNESS</p>
+            </a>
+            <!-- boton hamburguesa -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- boton hamburguesa -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../pages/articulos.html">ARTICULOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../pages/noticias.html">NOTICIAS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="../pages/tienda.html" id="navbarDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            TIENDA
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../pages/tienda.html#indumentaria">INDUMENTARIA</a></li>
+                            <li><a class="dropdown-item" href="../pages/tienda.html#maquinas">MAQUINAS</a></li>
+                            <li><a class="dropdown-item" href="../pages/tienda.html#suplementos">SUPLEMENTOS</a></li>
+                            <li><a class="dropdown-item" href="../pages/tienda.html#equipamientos">EQUIPAMIENTOS</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/registracion.html">REGISTRO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Final del menu-->
+    <main>
+        <section class="py-2 container-fluid fondoVerdeMedio">
+            <div class="row">
+                <article class="col-md-6 col-lg-4">
+                    <img class="w-100" src="../image/natural.jpg" alt="entrenamiento en espacios abiertos">
+                    <a class="linkNoticia" href="#noticiaUno">¿Y qué tal entrenar en un entorno natural?</a>
+                </article>
+                <article class="col-md-6 col-lg-4">
+                    <img class="w-100" src="../image/aventura.jpg" alt="hombre remando">
+                    <a class="linkNoticia" href="#noticiaDos">Un deporte de aventura que entrena todo el cuerpo y tiene
+                        premios
+                        inesperados</a>
+                </article>
+                <article class="col-sm-12 col-md-6 col-lg-4">
+                    <img class="w-100" src="../image/abdominales.jpg" alt="mujer entrenando">
+                    <a class="linkNoticia" href="#noticiaTres">Entrenar los hipopresivos, el secreto para unos
+                        abdominales
+                        perfectos</a>
+                </article>
+                <article class="col-md-6 col-lg-4">
+                    <img class="w-100" src="../image/sobreentrenado.jpg"
+                        alt="mujer cansada apoyando brazos en sus piernas">
+                    <a class="linkNoticia" href="#noticiaCuatro">Las señales que indican que estás sobreentrenado y cómo
+                        evitarlo.</a>
+                </article>
+                <article class="col-md-6 col-lg-4">
+                    <img class="w-100" src="../image/planchas.jpg" alt="mujer haciendo planchas">
+                    <a class="linkNoticia" href="#noticiaCinco">El poder de las planchas. Por qué deberías empezar a
+                        hacerlas.</a>
+                </article>
+                <article class="col-sm-12 col-md-6 col-lg-4">
+                    <img class="w-100" src="../image/sprints.jpg" alt="Hombre haciendo sprints">
+                    <a class="linkNoticia" href="#noticiaSeis">Sprints. Los entrenamientos que inhiben el apetito y las
+                        razones
+                        científicas.</a>
+                </article>
+            </div>
+        </section>
+        <section>
+            <article id="noticiaUno" class="contenedorArticulo fondoVerde bordeArticulo">
+                <h3>¿Y qué tal entrenar en un entorno natural?</h3>
+                <p class="novedad animate">NOVEDAD!!</p>
+                <p class="parrafoArticulo">
+                    Con la pandemia, todos revalorizamos el espacio al aire libre. Hasta la planta más chiquita en casa
+                    cobró otra relevancia. Y aunque siempre lo prediqué, hoy creo con más fuerza que nunca en los
+                    beneficios de entrenar en el espacio exterior. Mejor aun, en un entorno natural, lejos del bullicio
+                    de las grandes ciudades.
+                    En estos tiempos tuve la oportunidad de descubrir las maravillas que tenemos en casa. De redescubrir
+                    Argentina y su esplendor y belleza, que nunca deja de sorprender.
+                </p>
+                <div class="contenedorArticuloMedio">
+                    <img src="../image/natural.jpg" alt="entrenamiento en espacios abiertos" class="imagenArticulo">
+                    <p class="parrafoArticuloCentro">
+                        Tenemos un país tan grande que hay desde ríos y sierras a montañas, lagos y nieve, pasando por
+                        llanuras y aguas termales. Y el relax más profundo es posible en cualquiera de sus rincones, no
+                        solo visitando sus paisajes privilegiados, sino acercándose a sus centros de salud y bienestar.
+                        Spas, retiros espirituales y de silencio de primer nivel se ofrecen en todo el país.
+                        Las investigaciones médicas confirman lo que nuestro cuerpo confía intuitivamente: los entornos
+                        agradables aceleran la recuperación de los enfermos y mantienen la salud de los sanos. Ya
+                        sabemos que para estar saludables el cuerpo necesita una dieta adecuada, cierta cantidad de
+                        ejercicio y dormir lo suficiente y de forma regular. Pero el aire limpio y el contacto con la
+                        naturaleza y el sol también es una clave del bienestar, y después de estos años lo vamos
+                        teniendo más claro.
+                        Creo que lo que se viene no es solo entrenar al aire libre, en la plaza o parque más cercanos,
+                        si no también hacer escapadas y retiros de relax y entrenamiento. Dejarse mimar en un spa y a la
+                        vez dejarlo todo en una buena clase de gimnasia. Y mientras las endorfinas comienzan a bullir en
+                        el cuerpo, respirar hondo y disfrutar el aire fresco y limpio de ese entorno, oxigenando cada
+                        célula. Así serán las vacaciones del futuro no tan lejano.
+                        Los entornos naturales no solo son agradables, también pueden ser muy motivadores. Porque
+                        ofrecen una nueva forma de hacer foco: podés concentrarte en el canto de los pájaros, el viento
+                        en los árboles, la luz que se cuela entre las hojas.
+                    </p>
+                </div>
+                <p class="parrafoArticulo">
+                    Cambiar de escenario es una gran forma de
+                    volver a disfrutar eso que tal vez venías haciendo por pura rutina. Es como haber corrido toda
+                    la vida en la cinta del gimnasio y de pronto empezar a correr afuera, al aire libre y en un
+                    paisaje real que se va moviendo. El tiempo no solo se pasa más rápido, si no que se disfruta y
+                    valora. Si todavía estás en plan de organizar tus vacaciones, ¿qué tal considerar unos días de spa y
+                    entrenamiento? Somos cuerpo, mente y emociones, y cuidar uno repercute en los otros. Esta opción de
+                    viaje puede ser el mix perfecto para empezar el año con energía, motivación y buenos hábitos,
+                    dispuesto a encontrar tu mejor versión en este 2022. Por Daniel Tangona
+                </p>
+            </article>
+        </section>
+        <section>
+            <article id="noticiaDos" class="contenedorArticulo fondoVerdeMedio bordeArticulo">
+                <h3>Un deporte de aventura que entrena todo el cuerpo y tiene premios
+                    inesperados</h3>
+                <p class="parrafoArticulo">
+                    El canotaje combina el aire libre y es un entrenamiento ideal para trabajar todos los músculos y
+                    acercarse a la naturaleza
+                    El año pasado, mi esposa y yo hicimos un viaje de un día en kayak a la punta de Point Reyes, una
+                    península justo al norte de San Francisco formada por la Falla de San Andrés que empuja una porción
+                    de California hacia el mar.
+                    Treinta minutos después de que partimos, justo al lado de mi proa, el agua explotó con un resoplido
+                    y lo que parecía ser un autobús escolar gris pasó debajo de nosotros. Una madre ballena gris y su
+                    cría estaban tomando un raro descanso de su viaje al norte para tomar un refrigerio.
+                    Deambularon, observaron nuestros botes e incluso respiraron sobre nosotros (el aliento de las
+                    ballenas no es agradable). Las motos a menudo asustan a los animales, pero nuestros dos pequeños
+                    botes parecían confundirse con el entorno.
+                    Fue solo una de las cien experiencias naturales trascendentes que he tenido en un kayak, todas a no
+                    más de unos pocos metros del muelle. Y aunque estábamos cansados al final del viaje de 4.8
+                    kilómetros, en ningún momento me preocupé por el agotamiento o las lesiones, no porque estuviera en
+                    forma, sino porque sabía que mi técnica de remo era correcta y suave para mis músculos y
+                    articulaciones.
+                    Las ventas de kayaks se han disparado en los últimos años, en parte debido a la pandemia. Ahora
+                    están disponibles en sitios de compra masivos y a bajos precios, ya que muchos usuarios encuentran
+                    que navegar en kayak es más difícil o más duro para sus cuerpos de lo que esperaban.
+                    Pero no tiene que ser así. Cambiar solo un par de elementos de la brazada puede permitir remar más
+                    lejos, evitar lesiones y convertir un día en el agua en una aventura transformadora.
+                    POR QUE KAYAK?
+                    Hay varias razones más allá del avistamiento de ballenas para probar el kayak. Por un lado, es un
+                    buen ejercicio aeróbico de bajo impacto para las personas mayores o para aquellos que desean ponerse
+                    en forma con facilidad.
+                    Eso se debe a que no involucra usar los músculos más grandes del cuerpo, como los muslos y las
+                    nalgas, dijo François Billaut, profesor de fisiología del ejercicio en la Universidad Laval en
+                    Quebec y ex fisiólogo jefe del equipo nacional canadiense de kayak. Cuanto más grandes son los
+                    músculos, más oxígeno necesitan, razón por la cual correr duro, por ejemplo, te deja sin aliento.
+                    En segundo lugar, dijo, es uno de los pocos ejercicios al aire libre que trabaja la parte superior
+                    del cuerpo, especialmente el pecho, la espalda y el núcleo que incluye los abdominales y otros
+                    músculos más profundos alrededor de la sección media que son difíciles de entrenar fuera de un
+                    gimnasio. El Dr. Billaut dijo que conviene pensar en el remo como un compañero adicional al andar en
+                    bicicleta o correr.
+                    “Las personas que solo corren y andan en bicicleta, tienden a no tener mucha masa muscular en la
+                    parte superior del cuerpo”, dijo el Dr. Billaut. “El kayak ofrece un equilibrio”.
+                    Pero eso no significa que hay que tener brazos grandes o músculos en la espalda para empezar.
+                    “La mayoría de la gente se sube a un kayak e inmediatamente piensa que tiene que usar los brazos,
+                    tiene que ser súper fuerte y tiene que agarrarse al agua con agresividad”, dijo Alicia Jones, una
+                    artista y diseñadora gráfica de Nueva York que empezó a remar hace cinco años a pesar de tener una
+                    lesión en el hombro. Pero “se convirtió en un entrenamiento de cuerpo completo después de que
+                    aprendí las técnicas “.
+                </p>
+                <div class="contenedorArticuloMedio">
+                    <img src="../image/aventura.jpg" alt="hombre remando" class="imagenArticulo">
+                    <p class="parrafoArticuloCentro">
+                        Abrazar la caja de pizza
+                        Lo primero que hay que entender sobre la técnica adecuada de kayak es que el movimiento es de
+                        torsión, no de tracción.
+                        “Tus brazos no son tan fuertes como muchos otros músculos de tu cuerpo”, dijo Greg Barton,
+                        medallista de oro olímpico en kayak y fundador de Epic Kayaks. “Cuanto más puedas llevar todo tu
+                        cuerpo al golpe, más rápido vas a poder ir”.
+                        Incluso antes de subir al bote, es ideal pararse y sostener el remo frente a uno con ambas
+                        manos, haciendo una extensión un poco más ancha que los hombros y con los codos rectos como si
+                        uno fuera una momia o tal vez un zombi. Hay que imaginar que el espacio cuadrado entre los
+                        brazos, el pecho y la pala es una caja de pizza. Luego solo resta fingir que se sabe remar, pero
+                        sin romper la caja de pizza.
+                        El punto es mantener los codos relativamente rectos y rotar desde el torso. Cuando el codo se
+                        dobla, los brazos toman el control y eso significa agotamiento y dolor en el hombro. De pie
+                        junto al bote, simplemente se deben girar las caderas de un lado a otro para que la cremallera
+                        del chaleco salvavidas se balancee hacia adelante y hacia atrás. Este es el movimiento que tiene
+                        que suceder.
+                        Luego se sube al bote y se golpea el agua. Es crucial tener una buena postura en el bote,
+                        “sentarse erguido hasta la cabeza, como si hubiera una cuerda tirando del cuerpo”, dijo Lynn
+                        Petzold, una instructora veterana de la escuela de naturaleza salvaje NOLS.
+                        Si está la preocupación por volcarse, se puede empezar cómodo en aguas poco profundas (o en una
+                        piscina) con lo mucho que puede torcerse y menearse en el bote. El miedo a dar una voltereta
+                        paraliza la técnica de remar. Si tiene un kayak recreativo se sorprenderá de lo difícil que es
+                        darse vuelta.
+                        Si la preocupación por volcar es muy fuerte, puede servir inscribirse en un curso de iniciación
+                        al kayak y aprender las técnicas de auto-rescate.
+                    </p>
+                </div>
+                <p class="parrafoArticulo">
+                    El giro lo es todo
+                    Hora de remar. Primero hay que colocarse en la misma posición de caja de pizza, con la paleta
+                    sostenida frente a uno, a la altura del pecho y las manos un poco más extendidas que el ancho de
+                    los hombros. Luego se comienza poniendo el remo en el agua, al lado del centro del bote, a la
+                    altura de los pies. No hay que tirar de él hacia uno, mantener los codos rectos y girando el
+                    torso para que el remo se deslice a lo largo del bote hasta que esté a la altura de la cadera, y
+                    luego se lo saca del agua.
+                    “Una de las primeras cosas que aprendí fue la rotación del torso. Esa frase está grabada en mi
+                    cerebro para siempre”, dijo la Sra. Jones, quien ahora enseña en el Brooklyn Bridge Park
+                    Boathouse. “Si me olvido algo más en la vida, no olvidaré la rotación del torso”.
+                    Este es el secreto, la diferencia entre el agotamiento frustrado y el remar sin esfuerzo: sostén
+                    el remo con los brazos pero usa tu abdomen para moverlo. Si se mantienen los codos relativamente
+                    rectos, deberían sentir un tirón en el estómago a cada lado a medida que se gira.
+                    Involucrar las piernas ayuda. Si se está remando a la derecha, hay que empujar con el pie
+                    derecho sobre los reposapiés para bloquear el abdomen, dijo Barton, mientras mantiene una buena
+                    postura.
+                    “Querés empujar del mismo lado que estás remando”, agregó. “En lugar de simplemente rotar de
+                    cintura para arriba, en realidad estás rotando desde las caderas “.
+                    No se debe agarrar demasiado la paleta, dijo Petzold; se trata de posición, no de poder. De
+                    hecho, ella no lo agarra en absoluto, hace círculos con los dedos pulgar e índice, como si
+                    fueran pinzas.
+                    “Ahí es donde descansa la paleta. Y mantengo mis otros dedos sueltos en un remo cuando empujo”,
+                    dijo, y agregó que con la técnica correcta, llegó a ver a principiantes remar 72 kilómetros en
+                    un solo día.
+                    Es una sensación extraña, torcer el torso mientras se mira al frente, no hay que esperar
+                    conseguirlo perfectamente la primera vez. Se trata de encontrar un ritmo. A medida que se domine
+                    el golpe, uno notará que los brazos ya no se cansan tan rápido; también se sentirá una quemadura
+                    en el abdomen.
+                    Es hora de cambiar las cosas
+                    Girar un kayak significa más que simplemente remar repetidamente de un lado, requiere un movimiento
+                    diferente que se extiende desde la parte delantera hasta la parte trasera del barco. Al momento de
+                    sentir que el cuerpo se retuerce, se empuja con los pies y ahí se activa el ‘core’, también se puede
+                    probar el golpe de giro, generalmente llamado golpe de barrido, para bloquear realmente el torso.
+                    Luego se empieza por el lado derecho de nuevo. Girando el torso hacia la izquierda y volviendo a
+                    alcanzar la pala derecha con los pies. Ahora se desliza la paleta hacia afuera, esta vez hasta la
+                    parte trasera del bote. Siempre sosteniendo la caja de pizza en su lugar y ahí se comienza a sentir
+                    cómo se retuerce el estómago.
+                    Se debe mirar la pala de la paleta derecha como un halcón desde el principio hasta el final del
+                    golpe. Para hacer esto, hay que girar el cuerpo completamente. Esta brazada sirve para maniobrar
+                    alrededor u ocasionalmente durante la brazada que se hace para mantener el rumbo.
+                    Una vez que se hayan dominado estas brazadas y esté involucrando su torso, Billaut recomendó algunos
+                    intervalos simples para fortalecerse. Después de calentar, remar con fuerza durante cinco minutos,
+                    luego descanso de tres a un ritmo más lento. Repite esto tres o cuatro veces.
+                    A medida que aparece el cansancio hay que esperar que la técnica decaiga y otra vez volver a tirar
+                    de los brazos y hombros. El Dr. Billaut dijo que una buena técnica puede proteger de lesiones en las
+                    articulaciones, así que es fundamental ser realista acerca de hasta dónde se quiere llegar.
+                    Si se hace correctamente, remar en un kayak puede llevarlo a uno más lejos de lo que se imaginaría.
+                    Puede ir a jardines rocosos, a través de cuevas marinas y navegar sobre crías de ballena gris
+                    juguetonas. Puede surfear las ondulantes olas de una ensenada de Alaska o romper suavemente la
+                    superficie cristalina de una mañana perfecta en Baja California. O también se puede remar en medio
+                    de una ciudad.
+                    “¿Alguna vez pensaste en el hecho de que se puede navegar en kayak por el Río Este o por el Hudson?”
+                    dijo la Sra. Jones. “Una vez que las personas se enteran de eso, quieren verlo, quieren
+                    experimentarlo”.
+                    Por Erik Vance.
+                </p>
+            </article>
+        </section>
+        <section>
+            <article id="noticiaTres" class="contenedorArticulo fondoClaro bordeArticulo">
+                <h3>Entrenar los hipopresivos, el secreto para unos abdominales
+                    perfecto
+                </h3>
+                <p class="parrafoArticulo">
+                    Los abdominales más tradicionales le cedieron el lugar a esta nueva técnica
+                    Existen hace mucho, pero recién en los últimos dos años comenzó a hablarse del tema en la Argentina.
+                    Después de pasar décadas haciendo los abdominales más tradicionales, es tiempo de empezar a entrenar
+                    con los hipopresivos, “el secreto mejor guardado de las modelos brasileñas, influencers españolas y
+                    competidoras de bikini estadounidenses para lucir abdomen plano y cintura mínima”, como describe el
+                    español Piti Pinsach, licenciado en Ciencias de la Actividad Física y el Deporte y cofundador de Low
+                    Pressure Fitness (LPF), un sistema avanzado de este ejercicio.
+                </p>
+                <div class="contenedorArticuloMedio">
+                    <img src="../image/abdominales.jpg" alt="mujer entrenando" class="imagenArticulo">
+                    <p class="parrafoArticuloCentro">
+                        La gimnasia hipopresiva lleva décadas de ventaja en Europa. Se trata de ejercicios posturales y
+                        respiratorios que buscan disminuir la presión interna en las cavidades pélvica, abdominal y
+                        torácica. A corto plazo, esta práctica permite mejorar la postura y el tono de esta musculatura,
+                        principalmente de la faja abdominal y el suelo pélvico.
+                        El método de Pinsach, por su parte, ofrece una evolución del concepto clásico, proponiendo un
+                        abordaje más completo que incluye técnicas de neurodinamia, liberación miofascial y control
+                        motor. Y así, aunque siempre se dijo que simplemente hacer abdominales no alcanza para que se
+                        marquen ni para “bajar la panza” -sobre todo si no va acompañado de una buena alimentación-,
+                        esta versión ofrece efectos muy satisfactorios.
+                        “La parte más llamativa de LPF es la respiración, que ciñe el abdomen como un corsé propio de la
+                        era victoriana. Esta succión consigue movilizar las vísceras abdominales y pélvicas con su
+                        consiguiente alivio de problemas intestinales, dolor lumbar y disfunciones del suelo pélvico”,
+                        detalla el especialista. El método también consigue reducir el perímetro abdominal y recuperar
+                        el abdomen en el postparto, mientras que para los hombres ofrece beneficios como la reducción
+                        del tamaño de la próstata, mejoras en la función sexual y de rendimiento deportivo.
+                        Y eso no es todo: en tiempos de Covid, muchos profesionales han incorporado esta rutina como un
+                        entrenamiento para fortalecer la musculatura respiratoria y de la espalda, para aliviar los
+                        síntomas. De hecho, aunque el LPF nació en España, llegó a Argentina durante la pandemia y hoy
+                        cuenta con varios profesionales certificados.
+                    </p>
+                </div>
+                <p class="parrafoArticulo">
+                    Para tener una idea más clara de qué se trata esta revolución de los abdominales, Pinsach propone
+                    hacer un ejercicio conocido como la postura Deméter. Acostado en el suelo, flexioná levemente las
+                    rodillas y el tobillo, para que los dedos de los pies apunten al techo. Los talones y la base de la
+                    cabeza deben empujar de forma suave una pared imaginaria. Los brazos deben estar cómodos y separados
+                    del cuerpo, con las palmas empujando hacia abajo. Ahora es el momento de estirar el músculo de la
+                    respiración, el diafragma. Inspirá en tres segundos, exhalá en cuatro y sin tomar aire expandí las
+                    costillas. Respirá tres veces más sin perder la tensión y el estiramiento de la columna. Y así de
+                    simple, “comprobá cómo tu respiración se ralentiza, tu abdomen se ha aplanado y la tensión de la
+                    espalda ha disminuido”. Vale la pena probar, ¿no? Por Daniel Tangona
+                </p>
+            </article>
+        </section>
+        <section>
+            <article id="noticiaCuatro" class="contenedorArticulo fondoCeleste bordeArticulo">
+                <h3>Las señales que indican que estás sobreentrenado y cómo
+                    evitarlo.
+                </h3>
+                <p class="parrafoArticulo">
+                    Entrenar en exceso puede traer consecuencias negativas para las personas; claves y recomendaciones
+                    para ejercitar de manera saludable
+                    A veces gana el impulso, esas ganas de seguir, de darlo todo un poquito más. Esa loca y genuina idea
+                    de querer superarse, difícil de explicar. Entrenar es concentración, es disciplina y perseverancia.
+                    Para muchos es una pasión, para otros un hobby, un trabajo.
+                    Ejercitar forma parte de la rutina diaria de las personas, una actividad que tan bien hace al
+                    bienestar integral.
+                    Pero de golpe el cuerpo dice “basta”. Cansancio, fatiga, falta de energía, le puede pasar a
+                    cualquiera. ¿Qué pasa cuándo no se rinde como siempre? ¿Cómo se explica que hay que frenar? ¿De qué
+                    manera se hace evidente cuando hay exigencia de más?
+                    Se trata del sobreentrenamiento, es decir, de un esfuerzo extra que se hace durante la práctica de
+                    ejercicios que siempre se hicieron con normalidad. Una condición que se produce en el organismo
+                    cuando la persona está haciendo actividad física en exceso y no descansa ni se alimenta como
+                    necesita. Escucharse y asumir lo que pasa son las principales claves de este proceso.
+                </p>
+                <div class="contenedorArticuloMedio">
+                    <img src="../image/sobreentrenado.jpg" alt="mujer cansada apoyando brazos en sus piernas"
+                        class="imagenArticulo">
+                    <p class="parrafoArticuloCentro">
+                        “El sobreentrenamiento se considera una respuesta de estrés al ejercicio y la competencia. Se da
+                        principalmente por la exposición a mayores niveles de carga e intensidad con pocos períodos de
+                        descanso”, comenta Maia Rastalsky, preparadora física.
+                        La vorágine del día a día, el trabajo, las responsabilidades y las corridas, actúan como un
+                        factor desencadenante para disminuir la energía y llegar cansados a la hora de entrenar lo cual
+                        hace que alguien esté más propenso a lastimarse.
+                        Luis Parrilla, médico especialista en deporte del Cenard, del Comité Olímpico y presidente de la
+                        Asociación de médicos del deporte, explica que esta situación equivale a una cuestión
+                        multifactorial y que para diagnosticarlo hay que tener en cuenta una serie de parámetros que
+                        incluyen desde el entrenamiento hasta el estilo de vida de la persona. Influye el entorno, el
+                        descanso, la alimentación, la genética y la salud.
+                        “Cada individuo es un mundo distinto y en muchos casos, son varios los puntos que entran en
+                        juego, no solo el entrenamiento. Al momento del diagnóstico es importante conocer a la persona
+                        de manera integral porque aquel malestar, que se repercute en la actividad, puede ser la
+                        manifestación de alguna otra cosa propia de la persona”, sostiene el especialista.
+                        Para evitar que esto suceda, el entrenamiento tiene que ser ondulante y no lineal. Nicolás
+                        Sameño, coach en levantamiento de pesas y preparador físico cuenta que tiene que haber meses,
+                        incluso semanas con mayor volumen de cargas y otros con menor. “Cuando se llega a picos de
+                        intensidad, hay que bajarlos”, sostiene el entrenador.
+                        Los expertos consultados coinciden que la clave de los entrenamientos está en que sean
+                        progresivos, es decir, de menos a más, respetando los tiempos del cuerpo.
+                    </p>
+                </div>
+                <p class="parrafoArticulo">
+                    También enfatizan en la importancia de alternar las intensidades de las cargas y los niveles para
+                    generar períodos de compensación y evitar por ejemplo, la fatiga muscular. “Es fundamental controlar
+                    el descanso, entre ejercicios y sesiones”, agrega Sameño.
+
+                    En algunos casos, la autoexigencia y las ganas de llegar a los objetivos propuestos dificultan poner
+                    un freno y recuperarse. Excederse en el entrenamiento trae consecuencias tanto para la salud como
+                    para el rendimiento deportivo. Diego Demarco, especialista en fisiología del ejercicio, brinda las
+                    claves para detectarlo a tiempo y evitar posibles complicaciones.
+                    <P class="parrafoArticulo">INDICIOS:</P>
+                    <ol class="parrafoArticulo">
+                        <li> Agotamiento: se padece insomnio y no se duerme profundo.</li>
+                        <li> Falta de progreso y rendimiento en el entrenamiento.</li>
+                        <li> Mucho esfuerzo y poca recuperación.</li>
+                        <li> Dolores musculares y lesiones: si se ejercita bajo estas condiciones, se pueden volver
+                            crónicas.</li>
+                        <li> Bajan las defensas, falta de concentración, irritabilidad y cambio de humor.</li>
+                        <li> Cambios metabólicos.</li>
+                        <li> Sed y deshidratación.</li>
+                        <li> Aumento de la frecuencia cardíaca durante el reposo</li>
+                    </ol>
+                    <P class="parrafoArticulo">CLAVES PARA EVITARLO:</P>
+                    <ol class="parrafoArticulo">
+                        <li> Planificación adecuada y principio de individualidad: cada persona es diferente, lo que es
+                            bueno para uno, puede no serlo para otro. Tener un plan personal ayuda a evitar futuros
+                            problemas.</li>
+                        <li> Bajar cargas.</li>
+                        <li> Alimentación adecuada: cantidad y calidad.</li>
+                        <li> Descanso: entre ejercicios y sesiones y, horas de sueño.</li>
+                        <li> Escucharse a uno mismo.</li>
+                        <li> Buena hidratación.</li>
+                    </ol>
+                    Por Melanie Shulman
+                </p>
+            </article>
+            <article id="noticiaCinco" class="contenedorArticulo fondoClaro bordeArticulo">
+                <h3>El poder de las planchas. Por qué deberías empezar a hacerlas.
+                </h3>
+                <p class="parrafoArticulo">
+                    Un ejercicio simple y con múltiples variantes para fortalecer la zona media del cuerpo.
+
+                    Amarlas u odiarlas. No hay punto medio a la hora de hacer una plancha o abdominales isométricos. Se
+                    trata de un ejercicio simple y completo, que lleva poco tiempo y no necesita de ningún elemento
+                    extra, con el peso del cuerpo es suficiente. Una actividad ideal y de las más elegidas entre
+                    expertos y principiantes del deporte para fortalecer la zona del core, es decir: la zona media, los
+                    hombros, las piernas, el pecho y la espalda.
+                    “Lo que distingue a la isometría de otros ejercicios es que no implica movimientos. Se adopta una
+                    posición fija, los músculos se contraen y se genera un trabajo de fuerza sin movimiento articular”,
+                    explica Diego Demarco, especialista en fisiología del ejercicio y alto rendimiento, preparador
+                    físico del colegio de árbitros y parte del cuerpo médico de AFA.
+                    Ignacio Valloni, profesor de educación física especializado en atletismo cuenta que esta actividad
+                    “implica una contracción muscular que se produce de forma interna, pero que no es visible de manera
+                    externa”.
+                </p>
+                <div class="contenedorArticuloMedio">
+                    <img src="../image/planchas.jpg" alt="mujer haciendo planchas" class="imagenArticulo">
+                    <p class="parrafoArticuloCentro">
+                        Hay infinitas variantes y formas de hacerlas, la tradicional y más conocida es apoyando los
+                        codos y las puntas de los pies sobre el piso y permanecer en esa posición durante 20 o 30
+                        segundos, los más avanzados superan el minuto y en algunos casos lo alternan con movimientos de
+                        brazos y/o piernas para aumentar la dificultad.
+                        Se trata de una actividad de baja intensidad y muy completa a la vez. Realizarlas implica
+                        activar todo el cuerpo y no genera dolor ni molestias. “Hay que ubicarse boca abajo, poner el
+                        peso sobre los codos y las puntas de los pies. Elevar la cadera y mantener la postura recta”,
+                        dice Sebastián Petroni, preparador físico. No hay que olvidarse de cuidar la postura durante su
+                        ejecución: “Es necesario estar atentos para evitar arquear la espalda o levantar los glúteos. La
+                        cabeza debe estar en una posición relajada con la mirada puesta en el piso”, agrega Petroni.
+                        Los beneficios de las planchas son múltiples y variados: se gana fuerza rápido, se mejora la
+                        postura y se aumenta la masa muscular. Los especialistas coinciden en que son ideales para
+                        recuperarse de lesiones ya que, realizarlas no implica movimientos bruscos, también las
+                        recomiendan para fortalecer los hombros, la espalda y mantener una posición erguida. Para
+                        Demarco, estos ejercicios son fundamentales porque ayudan a las personas a estar fuertes durante
+                        las actividades del día a día. “Vivimos haciendo isometría”, comenta.
+                        Para hacerlas no hay un momento en particular. Algunos las prefieren al principio de la rutina
+                        como parte de la entrada en calor, unos durante y otros al final. Valloni explica que cualquiera
+                        de las opciones son válidas ya que, la estructura de un entrenamiento no siempre es lineal. “Hay
+                        ejercicios que son convenientes hacer al principio como por ejemplo la movilidad articular
+                        porque sirve de entrada en calor, pero en este caso es relativo y depende del objetivo y
+                        dinámica de cada persona”, resalta.
+                    </p>
+                </div>
+                <p class="parrafoArticulo">
+                    Pablo Pelegri, médico especialista en deporte reafirma la importancia que tiene incorporar las
+                    planchas a las rutinas y cuenta que en muchos casos, la gente deja de lado el trabajo abdominal
+                    durante el entrenamiento para darle prioridad a otras zonas del cuerpo, como las piernas o los
+                    brazos. “Noto un alto porcentaje de personas que no tienen noción de lo importante que es tener
+                    sólida la zona media. Las planchas isométricas son una herramienta esencial para principiantes,
+                    expertos y para recuperarse de lesiones”, reflexiona.
+                    De todas maneras, hay grupos que están exentos de esta práctica. “No se lo recomiendo a personas
+                    mayores, con problemas de espalda, de tensión articular y embarazadas”, sostiene Pelegri.
+                    Tipos de planchas:
+                    Demarco brinda distintos ejemplos de planchas isométricas para todos los niveles y aclara: “Lo
+                    importante en el entrenamiento es ser paulatino, tener paciencia, respetar los tiempos del cuerpo y
+                    estar guiado. La clave está en ir de lo más simple a lo más complejo. Tiene que haber una
+                    progresión”. Por Melanie Shulman
+                </p>
+            </article>
+        </section>
+        <section>
+            <article id="noticiaSeis" class="contenedorArticulo fondoCeleste bordeArticulo">
+                <h3>Sprints. Los entrenamientos que inhiben el apetito y las razones
+                    científicas.
+                </h3>
+                <p class="parrafoArticulo">
+                    En un estudio realizado con ratones, caballos y personas, los investigadores encontraron pistas
+                    sobre qué tipos de ejercicio reducen las ganas de comer.
+                    En un nuevo estudio publicado en Nature, un equipo internacional de científicos sugirió que la
+                    respuesta radica en parte en las acciones de una sola molécula producida después del ejercicio que
+                    alivia el hambre. La molécula, que se encuentra en el torrente sanguíneo de ratones, humanos y
+                    caballos de carreras, apareció en una profusión mucho mayor después de los entrenamientos
+                    extenuantes que de los que eran más fáciles, lo que sugiere que hacer ejercicio fuerte podría ser la
+                    clave para controlar cuánto comemos después.
+                    La relación entre estar en forma y comer es espinosa. Los estudios han demostrado que las personas
+                    que comienzan a hacer ejercicio sin controlar también su consumo de calorías, por lo general bajan
+                    pocos o ningún kilo con el tiempo y pueden aumentar de peso. Muchos factores influyen en ese
+                    resultado, incluido el estado físico actual, la masa corporal, la dieta, el sexo, la genética, la
+                    tasa metabólica e incluso el momento del ejercicio. Algunos experimentos, aunque no todos, sugieren
+                    que las sesiones de la mañana pueden quemar más grasa que los mismos esfuerzos más tarde en el día.
+                    El apetito también importa. Si uno siente hambre en las horas posteriores a un entrenamiento,
+                    termina consumiendo más calorías de las que quemó. Pero lo que nos hace sentir hambre, o no, después
+                    de hacer ejercicio ha sido un misterio. Durante décadas, los científicos han sabido que varias
+                    sustancias, como las hormonas leptina y grelina, viajan al cerebro y nos incitan a estar más o menos
+                    interesados en comer.
+                    Los estudios muestran que el ejercicio altera los niveles de estas sustancias, pero también lo hacen
+                    la dieta y los hábitos de sueño. Algunos investigadores comenzaron a preguntarse si podría haber
+                    algún tipo de reacción específica al ejercicio que influya en el apetito.
+                    Entonces, los científicos de la Escuela de Medicina de la Universidad de Stanford, el Colegio de
+                    Medicina de Baylor, la Universidad de Copenhague y otras instituciones utilizaron técnicas
+                    recientemente desarrolladas para buscar moléculas que aparecían en mayor número en el torrente
+                    sanguíneo después del ejercicio. Comenzaron con ratones, colocándolos en diminutas cintas de correr
+                    para correr a velocidades crecientes hasta que se agotaron. Extrajeron sangre antes y después y
+                    luego compararon los niveles de miles de moléculas en la sangre de los roedores.
+                    Uno se destacó, aumentando más que cualquier otra molécula. Se había observado antes en algunos
+                    estudios sobre el metabolismo y el ejercicio, pero su función química y biológica aún se desconocía.
+                    Los científicos descubrieron que esta nueva molécula, una mezcla de lactato y el aminoácido
+                    fenilalanina, aparentemente se creó en respuesta a los altos niveles de lactato liberados durante el
+                    ejercicio. Los científicos lo llamaron lac-phe.
+                    Los investigadores especularon que lac-phe podría tener algo que ver con el balance de energía
+                    después del ejercicio, ya que las células en la sangre y en otras partes que lo crean están
+                    ampliamente involucradas en la ingesta de energía y la masa corporal. Tal vez, pensaron, afecta el
+                    apetito. Para averiguarlo, dieron una forma de lac-phe a ratones obesos, que normalmente comen con
+                    gusto. Pero su consumo de croquetas se redujo en más del 30 por ciento. Aparentemente tenían menos
+                    hambre con el lac-phe extra.
+                </p>
+                <div class="contenedorArticuloMedio">
+                    <img src="../image/sprints.jpg" alt="Hombre haciendo sprints" class="imagenArticulo">
+                    <p class="parrafoArticuloCentro">
+                        Luego, los investigadores volvieron a hacer el ejercicio. Criaron ratones que producían poco o
+                        nada de lac-phe y los hicieron correr en cintas de correr cinco veces a la semana durante varias
+                        semanas. Después de cada corrida, a los animales se les permitía comer tantas croquetas ricas en
+                        grasas como quisieran. Normalmente, correr ayuda a los ratones a evitar el aumento de peso,
+                        incluso con una dieta alta en calorías. Pero los animales incapaces de producir mucho lac-phe se
+                        hincharon, comieron más croquetas y ganaron alrededor de un 25 por ciento más de peso que el
+                        grupo de control.
+                        Lac-phe, al parecer, había sido la clave de cómo el ejercicio extenuante ayudó a los ratones a
+                        evitar el aumento de peso. Sin él, ese mismo ejercicio resultó en comer en exceso.
+                        Finalmente, los investigadores buscaron lac-phe en otras criaturas en ejercicio. Primero lo
+                        encontraron en el torrente sanguíneo de los caballos de carrera en niveles mucho más altos
+                        después de una carrera dura que antes. Luego pidieron a ocho jóvenes sanos que hicieran
+                        ejercicio tres veces: una vez pedaleando a un ritmo pausado durante 90 minutos, otra vez
+                        levantando pesas y una tercera con varios sprints de 30 segundos en una bicicleta fija. Los
+                        niveles sanguíneos de lac-phe alcanzaron su punto máximo después de cada tipo de ejercicio, pero
+                        fueron más altos después de los sprints, seguidos del entrenamiento con pesas. El ejercicio
+                        prolongado y suave produjo lo mínimo.
+                        En otras palabras, cuanto más intenso era el ejercicio, más lac-phe se producía y, al menos en
+                        los ratones, más parecía disminuir el apetito.
+                        “Los resultados son fascinantes y agregan una nueva dimensión a nuestro pensamiento sobre el
+                        ejercicio y la regulación del peso corporal”, dijo Richard Palmiter, profesor de bioquímica en
+                        la Universidad de Washington en Seattle y experto en neurobiología del comportamiento que no
+                        formó parte del nuevo estudio.
+                    </p>
+                </div>
+                <p class="parrafoArticulo">
+                    “Siempre supimos que nuestro menú actual de moléculas que parecen regular el apetito y la
+                    ingesta de alimentos, como la leptina, la grelina, etc., estaba incompleto y este nuevo
+                    metabolito/molécula de señalización es una adición potencialmente importante a esa lista”, dijo
+                    Barry Braun, director ejecutivo del Laboratorio de Investigación Clínica de Rendimiento Humano
+                    de la Universidad Estatal de Colorado en Fort Collins, que estudia el ejercicio y el control del
+                    peso. Él no participó en el uponiendo que este proceso funcione igual en humanos que en ratones,
+                    el descubrimiento de lac-phe proporciona una lección útil. Si queremos evitar los atracones
+                    después de un entrenamiento, es posible que tengamos que aumentar la intensidad, dijo Jonathan
+                    Z. Long, profesor de patología en la Facultad de Medicina de la Universidad de Stanford y autor
+                    principal del nuevo estudio.
+                    Esta idea tiene sentido intuitivo y evolutivo, agregó. “Si estás escapándote de un rinoceronte o de
+                    alguna otra amenaza, el sistema nervioso autónomo le grita al cerebro que detenga la digestión y
+                    cualquier otro proceso innecesario”.
+                    Sin embargo, su estudio no dice cómo la lac-phe podría estar interactuando con nuestras células
+                    cerebrales para afectar el apetito o qué tan extenuante debe ser el ejercicio para acelerar la
+                    formación de lac-phe o cuánto tiempo podrían durar los efectos de la molécula. Además, los
+                    ejercitadores humanos eran jóvenes sanos, lo que significa que no sabemos si lac-phe existe u opera
+                    de la misma manera en todos los demás.
+                    Aún así, si uno busca tener menos hambre después de hacer ejercicio, es posible que quiera acelerar
+                    el ritmo. Alargar el trayecto durante las próximas caminatas o correr hasta la esquina de la calle
+                    más lejana. “Lo que dicen los datos es que la intensidad es importante para el ejercicio y el
+                    control del apetito”, concluyó el Dr. Long.
+                    Por Gretchen Reynolds. estudio.
+                </p>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <p class="parrafoFooter">Seguinos en:</p>
+            <a href="https://www.facebook.com" target="_blank"><img src="../image/facebook.png"
+                    alt="link a la pagina de Facebook" class="logoFooter">
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="../image/Instagram-icon.png" alt="link a la pagina de Instagram" class="logoFooter">
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="../image/twitter.png" alt="link a la pagina de Twitter" class="logoFooter">
+        </section>
+    </footer>
+    <!-- Final del footer-->
+    <!-- JavaScript bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./image/favicon.png">
+    <title>DFitness Portal de Noticias Fitness</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-light fondoDegrade">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../image/logof.png" alt="Logo D Fitness Index portal de noticias fitness" class="logoHeader">
+                <p class="centrado">DEFITNESS</p>
+            </a>
+            <!-- boton hamburguesa -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- boton hamburguesa -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../pages/articulos.html">ARTICULOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/noticias.html">NOTICIAS</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="../pages/tienda.html" id="navbarDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            TIENDA
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../pages/tienda.html#indumentaria">INDUMENTARIA</a></li>
+                            <li><a class="dropdown-item" href="../pages/tienda.html#maquinas">MAQUINAS</a></li>
+                            <li><a class="dropdown-item" href="../pages/tienda.html#suplementos">SUPLEMENTOS</a></li>
+                            <li><a class="dropdown-item" href="../pages/tienda.html#equipamientos">EQUIPAMIENTOS</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/registracion.html">REGISTRO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Final del menu-->
+    <main>
+        <section>
+            <div class="contenedorMenuTienda">
+                <a href="#indumentaria">
+                    <h2 class="parrafoMenuTienda scale">INDUMENTARIA</h2>
+                </a>
+            </div>
+            <div class="contenedorMenuTiendaSuplemento">
+                <a href="#suplementos">
+                    <h2 class="parrafoMenuTienda scale">SUPLEMENTOS</h2>
+                </a>
+            </div>
+            <div class="contenedorMenuTiendaMaquina">
+                <a href="#maquinas">
+                    <h2 class="parrafoMenuTienda scale">MAQUINAS</h2>
+                </a>
+            </div>
+            <div class="contenedorMenuTiendaEquipamiento">
+                <a href="#equipamientos">
+                    <h2 class="parrafoMenuTienda scale">EQUIPAMIENTOS</h2>
+                </a>
+            </div>
+        </section>
+        <section id="suplementos" class="bordeArticulo fondoProductos">
+            <h3 class="fondoClaro">suplementos</h3>
+            <section class="py-2 container-fluid fondoProductos">
+                <div class="row">
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/ganadorEna.png" alt="Ganador de masa muscular">
+                        <figcaption class="parrafoProductoClaro">Ganador de masa muscular Ultra Mass de ENA. 1kg.
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 5500 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/ganadorMonster.png"
+                            alt="Ganador de masa muscular">
+                        <figcaption class="parrafoProductoClaro">Ganador de masa muscular Monters Mass de 3kg.
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 12500 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/ganadorUltra.png"
+                            alt="Ganador de masa muscular">
+                        <figcaption class="parrafoProductoClaro">Ganador de masa muscular Ultra Weight Gainer. 1kg.
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 6200 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/ganadorXxl.png" alt="Ganador de masa muscular">
+                        <figcaption class="parrafoProductoClaro">Ganador de masa muscular XXL. 1kg.</figcaption>
+                        <p class="parrafoProducto"> $ 3900 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/barraGen.png" alt="Barra proteinas">
+                        <figcaption class="parrafoProductoClaro">Protein bar de ENA. 1 Unid.
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 260 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/barraInfitnnes.png" alt="Barra proteinas">
+                        <figcaption class="parrafoProductoClaro">Barra proteica de Infitness. 1 Unid.
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 190 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/barraIron.png" alt="Barra proteinas">
+                        <figcaption class="parrafoProductoClaro">Iron bar de Gentech. 20 Unidades.
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 3250 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/barraPower.png" alt="Barra proteinas">
+                        <figcaption class="parrafoProductoClaro">Barra proteica Power pulver. 20 Unidades.</figcaption>
+                        <p class="parrafoProducto"> $ 2980 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/bcaaEna.png" alt="Frasco de BCAA">
+                        <figcaption class="parrafoProductoClaro">BCAA de ENA. 90 Unid.
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 3500 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/bcaaHidro.png" alt="Frasco de BCAA">
+                        <figcaption class="parrafoProductoClaro">BCAA de Hydro. 30 Unid.
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 1350 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/bcaaStar.png" alt="Frasco de BCAA">
+                        <figcaption class="parrafoProductoClaro">BCAA de Star Nutrition. 20 Unid.
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 1600 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/bcaaUniversal.png" alt="Frasco de BCAA">
+                        <figcaption class="parrafoProductoClaro">BCAA de Universal. 110 Unid.</figcaption>
+                        <p class="parrafoProducto"> $ 4800 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/wheyProtein.png"
+                            alt="Pote proteinas de suero de leche">
+                        <figcaption class="parrafoProductoClaro">Whey Protein de ENA. 1kg.
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 3200 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/wheyProteinStar.png"
+                            alt="Pote proteinas de suero de leche">
+                        <figcaption class="parrafoProductoClaro">Whey Protein de Star Nutrition. 500grs.
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 1800 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/wheyProteinWell.png"
+                            alt="Pote proteinas de suero de leche">
+                        <figcaption class="parrafoProductoClaro">Whey Protein de Gentech. 500grs.
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 1950 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/wheyProteinUltra2.png"
+                            alt="Dos potes proteinas de suero de leche">
+                        <figcaption class="parrafoProductoClaro">Whey Protein de Ultra Tech. 2kg.</figcaption>
+                        <p class="parrafoProducto"> $ 7200 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                </div>
+            </section>
+        </section>
+        <section id="indumentaria" class="bordeArticulo fondoProductos">
+            <h3 class="fondoClaro">indumentaria</h3>
+            <section class="py-2 container-fluid fondoProductos">
+                <div class="row">
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/remeraadidas.png" alt="remera adidas">
+                        <figcaption class="parrafoProductoClaro">Remera Adidas
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 4200 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/remeraunderdama.png" alt="remera under dama">
+                        <figcaption class="parrafoProductoClaro">Remera Under Dama
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 4600 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/calzafiona.png" alt="calza dama">
+                        <figcaption class="parrafoProductoClaro">Calza Fiona
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 1900 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/mediasreebok.png" alt="medias reebok">
+                        <figcaption class="parrafoProductoClaro">Pack Medias Reebok</figcaption>
+                        <p class="parrafoProducto"> $ 1900 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/buzopumadama.png" alt="buzo puma dama">
+                        <figcaption class="parrafoProductoClaro">Buzo Puma Dama
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 5500 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/shortlotto.png" alt="short lotto">
+                        <figcaption class="parrafoProductoClaro">Short Lotto
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 1950 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/remeranike.png" alt="remera nike">
+                        <figcaption class="parrafoProductoClaro">Remera Nike
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 4500 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/buzopumas.png" alt="buzo pumas">
+                        <figcaption class="parrafoProductoClaro">Buzo Pumas</figcaption>
+                        <p class="parrafoProducto"> $ 7000 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/remerapumadama.png" alt="Remera Puma Dama">
+                        <figcaption class="parrafoProductoClaro">Remera Puma Dama
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 3500 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/calzadamablanca.png" alt="calza blanca">
+                        <figcaption class="parrafoProductoClaro">Calza Blanca
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 1950 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/mediaspumas.png" alt="medias puma">
+                        <figcaption class="parrafoProductoClaro">Pack Medias Puma
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 1800 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/remerapuma.png" alt="remera puma">
+                        <figcaption class="parrafoProductoClaro">Remera Puma</figcaption>
+                        <p class="parrafoProducto"> $ 3800 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/buzoreusch.png" alt="buzo reush">
+                        <figcaption class="parrafoProductoClaro">Buzo Reush
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 6500 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/remeraunder.png" alt="remera under">
+                        <figcaption class="parrafoProductoClaro">Remera Under
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 5100 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/shorttopper.png" alt="short topper">
+                        <figcaption class="parrafoProductoClaro">Short Topper
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 1950 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/buzounderdama.png"
+                            alt="Dos potes proteinas de suero de leche">
+                        <figcaption class="parrafoProductoClaro">Buzo Under Dama</figcaption>
+                        <p class="parrafoProducto"> $ 8500 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                </div>
+            </section>
+        </section>
+        <section id="maquinas" class="bordeArticulo fondoProductos">
+            <h3 class="fondoClaro">maquinas</h3>
+            <section class="py-2 container-fluid fondoProductos">
+                <div class="row">
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/caminadorelectrico500e.png"
+                            alt="caminadora electrica">
+                        <figcaption class="parrafoProductoClaro">Caminador Electrico 500 E
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 97500 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/bicifijaReebok.png" alt="bicifijareebok">
+                        <figcaption class="parrafoProductoClaro">Bici Fija Reebok
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 98000 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/multigymc768.png" alt="multigym">
+                        <figcaption class="parrafoProductoClaro">Multigym C768
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 80000 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/bancopechoplegable.png"
+                            alt="banco de pecho plegable">
+                        <figcaption class="parrafoProductoClaro">Banco de Pecho Plegable</figcaption>
+                        <p class="parrafoProducto"> $ 18000 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/maquinahammer.png" alt="maquina hammer">
+                        <figcaption class="parrafoProductoClaro">Maquina Hammer
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 70000 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/multigymranbak.png" alt="Multigym Ranbak">
+                        <figcaption class="parrafoProductoClaro">Multigym Ranbak
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 88000 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/ejercitadordominadasabdominales.png"
+                            alt="ejercitadora dorsales y abdominales">
+                        <figcaption class="parrafoProductoClaro">Ejarcitadora Dorsales y Abdominales
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 28000 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/bicifijaranbak.png"
+                            alt="bici fija horizontal ranbak">
+                        <figcaption class="parrafoProductoClaro">Bici Fija Horizontal Ranbak</figcaption>
+                        <p class="parrafoProducto"> $ 72000 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/bancoolimpico.png" alt="banco pecho olimpico">
+                        <figcaption class="parrafoProductoClaro">Banco Pecho Olimpico
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 49000 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/dorsalerapoleaalta.png"
+                            alt="dorsalera polea alta">
+                        <figcaption class="parrafoProductoClaro">Dorsalera Polea Alta
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 95000 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/cintacaminadora.png" alt="cinta caminadora">
+                        <figcaption class="parrafoProductoClaro">Cinta Caminadora
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 68000 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/prensaatletica.png" alt="Prensa Atletica">
+                        <figcaption class="parrafoProductoClaro">Prensa Atletica</figcaption>
+                        <p class="parrafoProducto"> $ 120000 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/dorsaleraconaccesorios.png"
+                            alt="Dorsalera con Accesorios">
+                        <figcaption class="parrafoProductoClaro">Dorsalera con Accesorio
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 90000 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/bicifijak50.png" alt="bicicleta fija k50 fit21">
+                        <figcaption class="parrafoProductoClaro">Bicicleta Fija K50 FiT 21
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 34000 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/bancopechoworld.png"
+                            alt="banco plano World Fitness">
+                        <figcaption class="parrafoProductoClaro">Banco Plano World Fitness
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 35000 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/multigymadidas.png" alt="Multigim adidas">
+                        <figcaption class="parrafoProductoClaro">Multigym Adidas</figcaption>
+                        <p class="parrafoProducto"> $ 115000 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                </div>
+            </section>
+        </section>
+        <section id="equipamientos" class="bordeArticulo fondoProductos">
+            <h3 class="fondoClaro">equipamiento</h3>
+            <section class="py-2 container-fluid fondoProductos">
+                <div class="row">
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/mancuernaskit.png" alt="dos mancuernas">
+                        <figcaption class="parrafoProductoClaro">Kit de Mancuernas
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 7800 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/guantesarmor.png" alt="guantes para GYM armor">
+                        <figcaption class="parrafoProductoClaro">Guantes para Gimnasio Under
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 9500 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/mancuernascyg.png" alt="mancuernas C y G">
+                        <figcaption class="parrafoProductoClaro">Mancuernas C y G
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 3600 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/escaleracordinacion.png"
+                            alt="escalera de coordinacion">
+                        <figcaption class="parrafoProductoClaro">Escalera de Coordinacion</figcaption>
+                        <p class="parrafoProducto"> $ 1300 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/ruedaabdominalref.png"
+                            alt="rueda para abdominales">
+                        <figcaption class="parrafoProductoClaro">Rueda para Abdominales
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 1700 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/sogaejercitar.png" alt="soga ejercitar">
+                        <figcaption class="parrafoProductoClaro">Soga Ejercitar
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 450 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/guantesfitusex.png" alt="guantes fit unisex">
+                        <figcaption class="parrafoProductoClaro">Guantes FIT Unisex
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 1700 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/cajonespejerapilable.png"
+                            alt="cajones apilables">
+                        <figcaption class="parrafoProductoClaro">Cajones Apilables</figcaption>
+                        <p class="parrafoProducto"> $ 1700 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/ruedaabdominaldoble.png"
+                            alt="rueda doble abdominales">
+                        <figcaption class="parrafoProductoClaro">Rueda Abdominales doble
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 1200 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/cajonsaltoreforzado.png"
+                            alt="cajon salto reforzado">
+                        <figcaption class="parrafoProductoClaro">Cajon Salto Reforzado
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 7000 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/kitmancuernas.png" alt="Frasco de BCAA">
+                        <figcaption class="parrafoProductoClaro">Kit de Mancuernas
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 11100 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/pesarusa6kg.png" alt="pesa rusa 6kg">
+                        <figcaption class="parrafoProductoClaro">Pesa Rusa 6 KG.</figcaption>
+                        <p class="parrafoProducto"> $ 1600 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/sogareebok.png" alt="soga saltar reebok">
+                        <figcaption class="parrafoProductoClaro">Soga saltar Reebok
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 3800 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/colchonetamulti.png"
+                            alt="Pote proteinas de suero de leche">
+                        <figcaption class="parrafoProductoClaro">Colchoneta Multicolor
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 1650 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/colchonetaaltaden.png"
+                            alt="Pote proteinas de suero de leche">
+                        <figcaption class="parrafoProductoClaro">Colchoneta Alta Densidad
+                        </figcaption>
+                        <p class="parrafoProducto"> $ 800 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                    <figure class="productosTiendaFiguras col-md-6 col-lg-3">
+                        <img class="imagenProductoTienda" src="../image/bandaelasticareebok.png"
+                            alt="banda elastica reebok">
+                        <figcaption class="parrafoProductoClaro">Banda Elastica Reebok</figcaption>
+                        <p class="parrafoProducto"> $ 3500 </p>
+                        <button class="botonComprar">Comprar</button>
+                    </figure>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <p class="parrafoFooter">Seguinos en:</p>
+            <a href="https://www.facebook.com" target="_blank"><img src="../image/facebook.png"
+                    alt="link a la pagina de Facebook" class="logoFooter">
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="../image/Instagram-icon.png" alt="link a la pagina de Instagram" class="logoFooter">
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="../image/twitter.png" alt="link a la pagina de Twitter" class="logoFooter">
+        </section>
+    </footer>>
+    <!-- Final del footer-->
+    <!-- JavaScript bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
